@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+
+:root {
+  --orange: #ff8c00;
+  --backgroundGray: #eeeeee;
+  --mainFont: 'Karla', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundGray);
+  font-family: var(--mainFont);
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+#title {
+  margin: 15px 0;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+  padding-left: 40px;
+  margin-right: 10px;
+}
+
+.nav-bar {
+  width: 40%;
+}
+
+.nav-link {
+  margin: 0 50px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+#features {
+  width: 80%;
+  margin: auto;
+}
+
+#form-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 30px 0; */
+}
+
+#email-hero {
+  margin: 0 0 20px;
+}
+
+/* ~ features */
+#features {
+  margin: 50px auto 120px;
+}
+
+.grid-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+}
+
+.icon-features {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.text-features h2 {
+  margin-block-end: 0;
+}
+
+.text-features p {
+  margin-block-start: 0;
+}
+
+.fa-fire,
+.fa-truck,
+.fa-battery-full {
+  width: 60px;
+  color: var(--orange);
+}
+
+.text-features {
+  width: 90%;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#video {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 50px auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid black;
+}
