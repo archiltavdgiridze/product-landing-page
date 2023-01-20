@@ -16,19 +16,22 @@
       <div class="navigation-bar">
         <div class="logo-title">
           <img src="./trombone.png" alt="" id="header-img" />
-          <h1 id="title">Original Trombones</h1>
+          <h1 id="title">
+            <a href="#hero">
+                Original Trombones
+            </a>
+          </h1>
         </div>
         <nav id="nav-bar">
-          <a class="nav-link" href="#features">Features</a>
-          <a class="nav-link" href="#how-it-works">How It Works</a>
+          <a class="nav-link" href="#hero">Features</a>
+          <a class="nav-link" href="#video">How It Works</a>
           <a class="nav-link" href="#pricing">Pricing</a>
         </nav>
       </div>
 
-      <div class="hero">
-        <h2 id="headline">Handcrafted, home-made masterpieces</h2>
+      <div class="hero" id="hero">
+        <h1 id="headline">Handcrafted, home-made masterpieces</h1>
         <form action="https://www.freecodecamp.com/email-submit" id="form-hero">
-          <!-- input email -->
           <input
             type="email"
             name="email"
@@ -79,7 +82,7 @@
         </div>
       </div>
 
-      <div class="video">
+      <div class="video" id="video">
         <iframe
           id="video"
           src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
@@ -90,9 +93,7 @@
         ></iframe>
       </div>
 
-      <ul class="nav"></ul>
-
-      <div class="cards-container">
+      <div class="cards-container" id="pricing">
         <div class="card">
           <div class="card-title">TENOR TROMBONE</div>
           <div class="card-price">$600</div>
@@ -116,8 +117,8 @@
               Lorem, ipsum dolor. <br />
               Lorem, ipsum.
             </p>
+            <button>SELECT</button>
           </div>
-          <button>SELECT</button>
         </div>
         <div class="card">
           <div class="card-title">VALVE TROMBONE</div>
@@ -129,22 +130,29 @@
               Lorem, ipsum dolor. <br />
               Lorem, ipsum.
             </p>
+            <button>SELECT</button>
           </div>
-          <button>SELECT</button>
         </div>
       </div>
 
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <!-- input email -->
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Enter your email address"
-          required
-        />
-        <input type="submit" id="submit" value="submit" />
-      </form>
+      <!-- footer --> 
+      <footer>
+        <div class="footer">
+          <div class="footer-logo">
+            <img src="./trombone.png" alt="" id="footer-img" />
+            <h1 id="footer-title">Original Trombones</h1>
+          </div>
+          <div class="footer-nav">
+            <div class="footer-links">
+              <a class="footer-link" href="#privacy">Privacy</a>
+              <a class="footer-link" href="#terms">Terms</a>
+              <a class="footer-link" href="#Contact">Contact</a>
+            </div>
+            <div class="footer-text">
+              <p>Copyright 2016, Original Trombones</p>
+            </div>
+          </div>
+        </div>
     </header>
   </body>
 </html>
